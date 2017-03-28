@@ -23,8 +23,8 @@ PubSubClient client(espClient);
 RCSwitch mySwitch = RCSwitch();
 MDNSResponder mdns;
 // Replace with your network credentials
-const char* ssid = "erisnet";
-const char* password = "3pyADXXNVk3iBWbzIruuO1RrDagIJjj2EQ8CWEgN9vVN0MsqoTOwojKF2URKxiy";
+const char* ssid = "SSID";
+const char* password = "SECRET";
 ESP8266WebServer server(80);
 // replace with your values
 char* housecode = "11001";
